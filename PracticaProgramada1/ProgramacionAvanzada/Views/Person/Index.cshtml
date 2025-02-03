@@ -1,0 +1,25 @@
+﻿@model List<ProgramacionAvanzada.Models.Person>
+
+<h2>Lista de Personas</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Data created</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.Id</td>
+                <td>@person.Name</td>
+                <td>@person.Description</td>
+                <td>@person.DateCreated</td>
+            </tr>
+        }
+    </tbody>
+</table>
