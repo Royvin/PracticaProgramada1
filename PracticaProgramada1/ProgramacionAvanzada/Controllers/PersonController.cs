@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Threading.Tasks;
 
 namespace ProgramacionAvanzada.Controllers
 {
@@ -33,6 +34,49 @@ namespace ProgramacionAvanzada.Controllers
         {
             var productos = ObtenerTodasLasPersonas();
             return View(person);
+        }
+
+        [HttpGet]
+        [Route("person/crear")]
+        public ActionResult Crear()
+        {
+            var person = new Person
+            {
+                Id = ObtenerSiguienteId(),
+                DateCreated = DateTime.Now
+            };
+            return View(person);
+        }
+
+        [HttpPost]
+        [Route("person/crear")]
+        public ActionResult Crear(Person person)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    CrearPerson(person);
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al crear la persona: " + ex.Message);
+                }
+            }
+            return View(person);
+        }
+
+        private static void CrearPerson(Person person)
+        {
+            person.DateCreated = DateTime.Now;
+            person.Id = ObtenerSiguienteId();
+            PersonController.person.Add(person);
+        }
+
+        private static int ObtenerSiguienteId()
+        {
+            return person.Max(p => p.Id) + 1;
         }
     }
 }

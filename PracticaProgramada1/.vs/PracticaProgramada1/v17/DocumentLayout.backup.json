@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|solutionrelative:programacionavanzada\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|solutionrelative:programacionavanzada\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|solutionrelative:programacionavanzada\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\views\\person\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|solutionrelative:programacionavanzada\\views\\person\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|solutionrelative:programacionavanzada\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{211E0A4B-F677-4E36-B26B-973FC5B213C7}|ProgramacionAvanzada\\ProgramacionAvanzada.csproj|c:\\users\\royam\\desktop\\practicaprogramada1\\practicaprogramada1\\programacionavanzada\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 57,
+          "SelectedChildIndex": 58,
           "Children": [
             {
               "$type": "Bookmark",
@@ -250,39 +258,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ProgramacionAvanzada\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ProgramacionAvanzada\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T20:13:37.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Views\\Person\\Crear.cshtml",
+              "RelativeDocumentMoniker": "ProgramacionAvanzada\\Views\\Person\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Views\\Person\\Crear.cshtml",
+              "RelativeToolTip": "ProgramacionAvanzada\\Views\\Person\\Crear.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T19:43:46.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Views\\Person\\Index.cshtml",
               "RelativeDocumentMoniker": "ProgramacionAvanzada\\Views\\Person\\Index.cshtml",
-              "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Views\\Person\\Index.cshtml",
-              "RelativeToolTip": "ProgramacionAvanzada\\Views\\Person\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Views\\Person\\Index.cshtml*",
+              "RelativeToolTip": "ProgramacionAvanzada\\Views\\Person\\Index.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-03T18:22:17.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "ProgramacionAvanzada\\Controllers\\PersonController.cs",
               "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Controllers\\PersonController.cs",
               "RelativeToolTip": "ProgramacionAvanzada\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAADwvzQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T18:12:55.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Models\\Person.cs",
               "RelativeDocumentMoniker": "ProgramacionAvanzada\\Models\\Person.cs",
               "ToolTip": "C:\\Users\\royam\\Desktop\\PracticaProgramada1\\PracticaProgramada1\\ProgramacionAvanzada\\Models\\Person.cs",
               "RelativeToolTip": "ProgramacionAvanzada\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T19:15:17.553Z",
               "EditorCaption": ""
