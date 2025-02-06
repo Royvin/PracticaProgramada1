@@ -1,0 +1,57 @@
+﻿@model List<ProgramacionAvanzada.Models.Person>
+
+<h2>Lista de Personas</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Data created</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr class="@(person.Id % 2 == 0 ? "even-row" : "odd-row")">
+                <td>
+                    @person.Id
+                    @if (person.Id % 2 != 0)
+                    {
+                        <span class="additional-info">(IMPAR)</span>
+                    }
+                </td>
+                <td>@person.Name</td>
+                <td>
+                    @switch (person.Id % 2)
+                    {
+                        case 0:
+                            <span style="color: blue; font-weight: bold;">@person.Description</span>
+                            break;
+                        default:
+                            <span style="color: green; font-style: italic;">@person.Description</span>
+                            break;
+                    }
+                </td>
+                <td>@person.DateCreated</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<td><a href="/person/crear" class="btn btn-primary">Crear Persona</a></td>
+
+<style>
+    .even-row {
+        background-color: #f0f0f0;
+    }
+
+    .odd-row {
+        background-color: #e6f2ff;
+    }
+
+    .additional-info {
+        color: red;
+        font-size: 0.8em;
+        margin-left: 5px;
+    }
+</style>
