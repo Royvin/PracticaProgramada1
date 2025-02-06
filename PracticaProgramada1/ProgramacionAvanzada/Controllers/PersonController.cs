@@ -29,7 +29,6 @@ namespace ProgramacionAvanzada.Controllers
             return person;
         }
 
-        [Route("person/lista")]
         public ActionResult Index()
         {
             var productos = ObtenerTodasLasPersonas();

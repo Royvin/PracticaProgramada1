@@ -22,6 +22,18 @@ namespace ProgramacionAvanzada
             );
 
             routes.MapRoute(
+                name: "PersonLista",
+                url: "person/lista",
+                defaults: new { controller = "person", action = "Index" }
+            );
+
+            routes.MapRoute(
+                name: "JobLista",
+                url: "job/lista",
+                defaults: new { controller = "job", action = "Index" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
