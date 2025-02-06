@@ -1,0 +1,43 @@
+﻿@model List<ProgramacionAvanzada.Models.Car>
+
+<h2>Lista de Carros</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Fecha de Creación</th>
+            <th>Mensaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            string rowClass = "";
+            switch (car.Id % 2)
+            {
+                case 0:
+                    rowClass = "even-row";
+                    break;
+                case 1:
+                    rowClass = "odd-row";
+                    break;
+            }
+
+            <tr class="@rowClass">
+                <td>@car.Id</td>
+                <td>@car.Name</td>
+                <td>@car.Description</td>
+                <td>@car.DateCreated.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @if (car.Id % 2 != 0)
+                    {
+                        <span class="text-info">Este es un ID impar</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
