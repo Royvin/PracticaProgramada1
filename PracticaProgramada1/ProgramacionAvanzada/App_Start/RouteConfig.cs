@@ -16,6 +16,12 @@ namespace ProgramacionAvanzada
             routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
+                name: "CarLista",
+                url: "car/lista",
+                defaults: new { controller = "Car", action = "Index" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
@@ -25,6 +31,12 @@ namespace ProgramacionAvanzada
                 name: "PersonCreate",
                 url: "person/crear",
                 defaults: new{controller = "person", action = "crear"}
+            );
+
+            routes.MapRoute(
+                name: "CarNuevo",
+                url: "car/nuevo",
+                defaults: new { controller = "car", action = "nuevo" }
             );
         }
     }

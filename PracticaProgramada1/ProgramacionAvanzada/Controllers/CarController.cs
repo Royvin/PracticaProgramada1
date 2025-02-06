@@ -23,7 +23,6 @@ namespace ProgramacionAvanzada.Controllers
             new Car { Id = 10, Name = "Mercedes-Benz", Description = "Mercedes-Benz SLS AMG", DateCreated = DateTime.Now }
         };
 
-        [Route("car/lista")]
         public ActionResult Index()
         {
             var cars = ObtenerTodosCarros();
