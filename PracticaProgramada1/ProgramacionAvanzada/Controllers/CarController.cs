@@ -34,5 +34,25 @@ namespace ProgramacionAvanzada.Controllers
         {
             return cars;
         }
+
+        // GET: /Car/Create
+        public ActionResult Nuevo()
+        {
+            return View();
+        }
+
+        // POST: /Car/Create
+        [HttpPost]
+        public ActionResult Nuevo(Car car)
+        {
+            if (ModelState.IsValid)
+            {
+                car.Id = cars.Max(c => c.Id) + 1;
+                car.DateCreated = DateTime.Now;
+                cars.Add(car);
+                return View("Index", ObtenerTodosCarros());
+            }
+            return View(car);
+        }
     }
 }
